@@ -2,10 +2,10 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div id="about" className='bg-slate-200 py-12 mb-12'>
-            <h3 className='text-center text-2xl'>About</h3>
-            {/* <progress class="progress w-56"></progress> */}
-            <p className='mx-36 text-justify'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, ipsa quaerat doloribus molestias molestiae tempora iusto obcaecati suscipit. Perferendis excepturi doloremque aperiam recusandae eum sapiente, esse fuga assumenda dolor dicta pariatur facere error voluptatum fugiat ex, necessitatibus autem ipsa quisquam. Quo vel quas, a in nemo voluptates ex exercitationem quasi. Quo consectetur expedita voluptas, hic error quas! Neque numquam quam sit deserunt debitis quibusdam corrupti, sint repudiandae dicta nostrum voluptatibus, accusantium perspiciatis officia porro optio cumque exercitationem fugiat. Aut, porro.</p>
+        <div id="about" className='bg-slate-50 py-12'>
+            <h3 className='text-center text-3xl text-purple-500 mb-3'>About Me</h3>
+          
+            <p className='mx-8 lg:mx-48 text-justify'>Hey, I am Eshita Yasmin. I am currently in the final year of Zoology department at Eden Mohila College, Dhaka. I like to solve various mathmatical and logical problems. That's why i find satisfaction in learning new things through programming. I want to build myself as a skilled developer through my best efforts. In the next two years i will established myself as a qualityful Full Stack Developer, Insha-Allah.</p>
         </div>
     );
 };

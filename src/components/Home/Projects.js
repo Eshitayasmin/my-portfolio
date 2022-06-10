@@ -7,7 +7,7 @@ import './Banner.css';
 const Projects = () => {
     return (
         <div id="projects" className='bg-orange-50 py-12'>
-            <h1 className='text-center text-3xl'>My Projects</h1>
+            <h1 className='text-center text-3xl font-semibold text-blue-600 mb-4'>My Projects</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 mx-6 lg:mx-28'>
                 <div className='mb-6'>
                     <img className='w-96' src={parts} alt="" />

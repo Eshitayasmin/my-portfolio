@@ -10,7 +10,6 @@ const Banner = () => {
             <h2 className='text-center text-2xl mb-1'>I am a <span className='text-blue-400'>Full Stack Web Developer</span></h2>
             <div className='text-center'>
             <button class="btn btn-info mt-3 mr-5 text-white"><a target="blank" href="https://drive.google.com/file/d/1ejVTp9jLHUX-m4UuiTAcG_AOrvPizXS4/view?usp=sharing">Download Resume</a></button>
-            <button class="btn btn-accent mt-3 text-white">Hire Me</button>
             </div>
             </div>
         </div>

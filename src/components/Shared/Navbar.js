@@ -8,10 +8,11 @@ const Navbar = () => {
   <li><a href="home#about">About</a></li>
   <li><a href="home#projects">Projects</a></li>
   <li><a href="home#contact">Contact</a></li>
+  <li><Link to="/blogs">Blogs</Link></li>
   </>
     
     return (
-      <div class="navbar flex justify-between lg:justify-around bg-red-50">
+      <div class="navbar fixed flex justify-between lg:justify-around bg-red-50">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
