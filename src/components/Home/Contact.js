@@ -1,11 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, faFacebookF, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import './Banner.css';
 import {useNavigate } from 'react-router-dom';
-library.add(fab);
+
 
 const Contact = () => {
     const navigate = useNavigate();

@@ -16,3 +16,16 @@
     background-color: rgba(255, 166, 0, 0.829);
     color: white;
 }
+
+.details-btn{
+    background-color: cadetblue;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.details-div{
+    width: 100vw;
+    margin: 0 auto;
+}

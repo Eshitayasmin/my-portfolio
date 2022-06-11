@@ -12,7 +12,7 @@ const Navbar = () => {
   </>
     
     return (
-      <div class="navbar fixed flex justify-between lg:justify-around bg-red-50">
+      <div class="navbar fixed flex justify-between lg:justify-around">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
