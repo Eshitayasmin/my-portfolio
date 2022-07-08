@@ -9,8 +9,8 @@ import '../Home/Banner.css';
 
 const PhotographyWebDetail = () => {
     return (
-        <div className='bg-slate-100 py-12 w-screen'>
-        <div>
+        <div className='bg-project-detail h-screen py-12 block lg:flex justify-evenly '>
+        <div className='w-full lg:w-6/12 mx-auto lg:mx-1 lg:h-96 mt-4'>
             <div class="carousel w-8/12 mx-auto">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src={photography3} class="w-full" />
@@ -37,7 +37,7 @@ const PhotographyWebDetail = () => {
             </div>
       
         </div>
-        <div className='w-11/12 lg:w-1/2 mx-auto'>
+        <div className='w-10/12 lg:w-6/12 px-4 lg:px-0  mt-4'>
            <div className='block lg:flex items-center'>
            <h1 className='text-2xl text-blue-500 font-semibold mt-4'>AR Photography</h1>
             <div className='ml-0 lg:ml-4'>

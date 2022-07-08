@@ -5,12 +5,13 @@ import FruitsWebDetail from './components/Details/FruitsWebDetail';
 import PartsWebDetails from './components/Details/PartsWebDetails';
 import PhotographyWebDetail from './components/Details/PhotographyWebDetail';
 import Home from './components/Home/Home';
+import Navbar from './components/Shared/Navbar';
 import Welcome from './components/Shared/Welcome';
 
 function App() {
   return (
     <div>
-     
+     <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>

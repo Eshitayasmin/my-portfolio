@@ -4,12 +4,13 @@ import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
 import fruits1 from '../../images/fruitsWeb/fruits-1.png';
 import fruits2 from '../../images/fruitsWeb/fruits-2.png';
 import fruits3 from '../../images/fruitsWeb/fruits-3.png';
+import '../Home/Banner.css';
 
 const FruitsWebDetail = () => {
     return (
-        <div className='bg-slate-100 py-12 w-screen'>
-        <div>
-            <div class="carousel w-full lg:w-8/12 lg:h-96 mx-auto">
+        <div className='bg-project-detail h-screen py-12 block lg:flex justify-evenly h-screen w-screen'>
+        <div className='w-10/12 mx-auto lg:mx-2 lg:w-4/12 lg:h-96'>
+            <div class="carousel ">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src={fruits2} class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -35,9 +36,9 @@ const FruitsWebDetail = () => {
             </div>
       
         </div>
-        <div className='w-11/12 lg:w-1/2 mx-auto mt-4'>
+        <div className='w-10/12 lg:w-6/12 mx-4 lg:mx-2  mt-4'>
            <div className='block lg:flex items-center'>
-           <h1 className='text-2xl text-blue-500 font-semibold mt-4'>AR Parts Manufacturer</h1>
+           <h1 className='text-2xl text-blue-500 font-semibold mt-4'>AR Fruits Warehouse</h1>
             <div className='ml-0 lg:ml-4'>
             <button class="live-site-btn"><a target="blank" href="https://ar-fruits-warehouse.web.app/">Live Site</a></button>
 

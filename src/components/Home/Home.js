@@ -10,7 +10,7 @@ import Projects from './Projects';
 const Home = () => {
     return (
         <div>
-             <Navbar></Navbar>
+       
             <div className='banner h-screen'>
                 <Banner></Banner>
             </div>

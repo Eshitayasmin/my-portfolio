@@ -1,9 +1,61 @@
 .banner{
     background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-31-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e1ee6e84fa2c584170bab2733ea5a1b0');
+    background-color:linen;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
+.wrapper{
+    display: flex;
+  }
+  .wrapper .static-txt{
+    font-size: 50px;
+    font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linen;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 4s steps(21) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
 
 .live-site-btn{
     background-color: salmon;
@@ -28,4 +80,22 @@
 .details-div{
     width: 100vw;
     margin: 0 auto;
+}
+.bg-navbar{
+    background-color:linen;
+}
+.bg-about{
+    background-color:cadetblue;
+}
+.bg-projects{
+    background-color:rgba(43, 42, 41, 0.829);
+}
+.bg-project{
+    background-color: khaki;
+}
+.bg-project-detail{
+    background-color: khaki;
+}
+.bg-contact{
+    background-color:darkkhaki;
 }

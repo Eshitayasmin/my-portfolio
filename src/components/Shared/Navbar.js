@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import '../Home/Banner.css';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ const Navbar = () => {
   </>
     
     return (
-      <div class="navbar fixed flex justify-between lg:justify-around">
+      <div class="navbar flex justify-between lg:justify-around bg-navbar">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
