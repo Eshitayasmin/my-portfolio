@@ -68,7 +68,14 @@
     background-color: rgba(255, 166, 0, 0.829);
     color: white;
 }
-
+.static-text{
+  font-size: 30px;
+}
+.dynamic-texts{
+  font-size: 30px;
+  color: cadetblue;
+  
+}
 .details-btn{
     background-color: cadetblue;
     color: white;
